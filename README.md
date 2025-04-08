@@ -1,0 +1,1 @@
+This is Etch-a-Sketch, a famous toy that lets you draw with two dials and a screen.
