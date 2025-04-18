@@ -33,6 +33,13 @@ body {
     padding: 40px 0 40px 0;
 }
 
+.colorPicker {
+    cursor: pointer;
+}
+
+.eraser {
+    padding-left: px;
+}
 
 #color {
     display: flex;
