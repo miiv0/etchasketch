@@ -1,0 +1,114 @@
+.body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(227, 227, 227);
+}
+
+.outline {
+    background-color: red;
+    padding: 70px;
+    border-radius: 30px;
+    box-shadow: 0 0px 9px 1px rgba(0, 0, 0, 0.6) inset;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    box-shadow: 0 0px 9px 1px rgba(0, 0, 0, 0.6);
+}
+
+.square {
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.main {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: .2s;
+}
+
+button:hover {
+    transition-duration: .2s;
+    transform: scale(1.1);
+}
+
+.clear:active {
+    background-color: rgb(172, 172, 172);
+    transition-duration: .2s;
+    transform: scale(1);
+}
+
+.eraser:active {
+    background-color: rgb(255, 189, 189);
+    transition-duration: .2s;
+    transform: scale(1);
+}
+
+.black:active {
+    background-color: rgb(46, 46, 46);
+    transition-duration: .2s;
+    transform: scale(1);
+}
+
+.rainbow:active {
+    background-image: linear-gradient(to right, rgb(255, 145, 145), rgb(255, 206, 116), rgb(255, 240, 124), rgb(129, 255, 129), rgb(122, 122, 255), rgb(200, 122, 255), rgb(255, 189, 255));
+    transition-duration: .2s;
+    transform: scale(1);
+}
+
+.square {
+    background-color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px
+}

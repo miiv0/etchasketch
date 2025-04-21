@@ -15,11 +15,29 @@
     </header>
 
     <main class="main">
-        <input type="color" class="colorPicker">
+        <div class="options">
+            <input type="color" class="colorPicker">
+            <button class="black">Black</button>
+            <button class="rainbow">Rainbow</button>
+            <button class="eraser">Eraser</button>
+            <button class="clear">Clear</button>
+            <input type="range" class="size" min="1" max="100" value="16">
+            <p><span class="sizeValue">16 x 16</span></p>
+
+        </div>
+        <div class="outline">
+            <div class="grid">
+            </div>
+        </div>
     </main>
 
     <footer class="footer">
-
+        <p>Copyright ©
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            Michael Inzana
+        </p>
     </footer>
 </body>
 
