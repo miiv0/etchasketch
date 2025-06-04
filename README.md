@@ -4,6 +4,12 @@ A simple browser-based Etch-a-Sketch drawing app built with JavaScript, HTML, an
 
 ---
 
+### GitHub Pages:
+
+https://miiv0.github.io/etchasketch/
+
+---
+
 ### 🎮 About
 
 This project is an interactive Etch-a-Sketch where you can draw by moving your mouse or finger over a grid of squares. It features dynamic grid resizing, color selection, and a clear button. It was created to practice JavaScript event handling, DOM manipulation, and CSS grid layout.
